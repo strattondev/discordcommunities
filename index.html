@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <img src="{{ site.img }}" style="width: 75px;">
+      <h3 style="margin-top: 0px;" class="blurple"><strong>{{ site.title }}</strong></h3>
+    </div>
+  </div>
+</div>
+<div class="container">
+  {% for community in site.data.communities %}
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <table class="table table-hover">
+          <thead>
+            <td colspan=2>
+              <a href="{{ community.website }}" class="blurple"><h4><strong>{{ community.title }}</strong></h4></a>
+            </td>
+          </thead>
+          <tbody>
+            {% for element in site.data[community.id] %}
+              <tr>
+                <td style="font-size: 18px; width: 50%;">
+                  {{ element.name }}
+                </td>
+                <td class="text-right">
+                  <a href="{{ element.discord }}" class="darkButNotBlack">{{ element.discord }}</a>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  {% endfor %}
+</div>

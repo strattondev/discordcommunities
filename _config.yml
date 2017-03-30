@@ -1,0 +1,20 @@
+permalink: pretty
+markdown: kramdown
+
+title: Discord Communities
+author: Wesley Stratton
+description:
+    List of Discord communities
+url: https://discordcommunities.com
+repo: https://github.com/strattonw/discordcommunities
+img: img/logo-blurple.png
+discordUrl: https://discordapp.com
+
+exclude:
+  - CNAME
+  - CONTRIBUTING.md
+  - EXCLUSION.md
+  - Gemfile
+  - LICENSE
+  - README.md
+  - Rakefile
