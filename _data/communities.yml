@@ -1,6 +1,10 @@
 - id: pubg
   title: PLAYERUNKNOWN'S BATTLEGROUNDS
   website: https://www.playbattlegrounds.com
+
+- id: poker
+  title: Poker
+  website: https://reddit.com/r/poker  
   
 - id: worldofwarcraft
   title: World of Warcraft
