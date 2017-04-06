@@ -4,7 +4,11 @@
 
 - id: poker
   title: Poker
-  website: https://reddit.com/r/poker  
+  website: https://reddit.com/r/poker
+
+- id: starwars
+  title: Star Wars
+  website: http://www.starwars.com/
   
 - id: worldofwarcraft
   title: World of Warcraft
