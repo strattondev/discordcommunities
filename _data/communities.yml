@@ -1,6 +1,10 @@
 - id: csgo
   title: Counter-Strike
   website: http://blog.counter-strike.net
+  
+- id: hots
+  title: Heroes of the Storm
+  website: https://us.battle.net/heroes/en/
 
 - id: pubg
   title: PLAYERUNKNOWN'S BATTLEGROUNDS
