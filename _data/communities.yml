@@ -1,3 +1,7 @@
+- id: csgo
+  title: Counter-Strike
+  website: http://blog.counter-strike.net
+  
 - id: hots
   title: Heroes of the Storm
   website: https://us.battle.net/heroes/en/
@@ -8,7 +12,11 @@
 
 - id: poker
   title: Poker
-  website: https://reddit.com/r/poker  
+  website: https://reddit.com/r/poker
+
+- id: starwars
+  title: Star Wars
+  website: http://www.starwars.com/
   
 - id: worldofwarcraft
   title: World of Warcraft
