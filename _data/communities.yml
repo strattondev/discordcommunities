@@ -1,7 +1,11 @@
 - id: csgo
   title: Counter-Strike
   website: http://blog.counter-strike.net
-  
+
+- id: hearthstone
+  title: Hearthstone
+  website: https://us.battle.net/hearthstone/en/
+
 - id: hots
   title: Heroes of the Storm
   website: https://us.battle.net/heroes/en/
